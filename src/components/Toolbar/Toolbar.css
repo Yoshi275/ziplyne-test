@@ -4,7 +4,7 @@
     left: 0;
     width: 100%;
     background: #DCD2F2;
-    height: 56px;
+    height: 100px;
 }
 
 .toolbar_logo a {
@@ -25,10 +25,12 @@
     margin: 0;
     padding: 0;
     display: flex;
+    font-size: 1.25em;
+    font-weight: bold;
 }
 
 .toolbar_navigation-items li {
-    padding: 0 0.5rem
+    padding: 0 1.5rem
 }
 
 .toolbar_navigation-items a {
@@ -55,12 +57,14 @@
     border-radius: 20%;
     box-shadow: 0;
     outline: 0;
+    border-width: 0px;
+    font-family: 'Lato';
+    font-size: 1.25em;
 }
 
 .toolbar_navigation-items a:hover,
 .toolbar_navigation-items a:active {
     text-decoration: underline;
-    /* color: white; */
 }
 
 .spacer {
